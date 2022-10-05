@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <!--Cabeçalho-->
+
+  <head>
+    <title>HTML5 - Aulas</title>
+    <meta charset="utf-8" />
+  </head>
+  <style>
+    body{
+      width: 80%;
+      margin: auto;
+      font-size: 1.3em;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      line-height: 1.3em;
+      border: 1px dashed #ccc;
+      padding: 10px;
+    }
+    figure{
+      padding: 20px;
+    }
+    header{
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header img{
+      width: 80px;
+    }
+  </style>
+  <!--Conteúdo-->
+
+  <body>
+    <header>
+      <img src="images/svg/cenoura.svg" alt="Cenoura" width="30" />
+      <span>Nosso Restaurante</span>
+      <hr />
+    </header>
+    <nav>
+      <span>Barra de Navegação</span>
+      <br />
+      <a href="https://www.google.com/search?q=zoologico" target="_blank">Google</a> |
+      <a href="#carnes">Carnes Nobres</a> |
+      <a href="pages/sobre.html">Sobre Nós</a>
+    </nav>
+    <main>
+      <section>
+        <h1>Reinventando o sabor</h1>
+        <article>
+          <h2>Artigo 1</h2>
+          <p>
+            Aulas de <code>&lt;html&gt;</code> Lorem ipsum dolor, sit amet
+            consectetur <mark>Lorem ipsum dolor</mark>,
+            <kbd>sit amet</kbd> consectetur adipisicing elit. Ipsam, nihil.
+            <strong>adipisicing elit</strong>. Totam
+            <b>nde iusto minus opti</b> uo modi officia dolore officiis
+            temporibus cupiditate?<br />
+            Quia?
+          </p>
+          <h3>Nossos pratos</h3>
+          <figure style="background-color: antiquewhite">
+            <h3>Frutas e Vegetais</h3>
+            <img width="450" src="images/frutas-e-vegetais.jpg" />
+            <img
+              src="images/png/caixa-macas.png"
+              alt="Caixa de maças"
+              width="200"
+            />
+            <figcaption>Tela: Fotografia de Alex H.S.</figcaption>
+          </figure>
+          <blockquote>
+            <details>
+              <summary>
+                <b> Saiba mais sobre o nosso cardápio </b>
+              </summary>
+              <p>
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                Dignissimos vitae voluptatum in necessitatibus ab, consectetur
+                velit neque ipsum expedita qui inventore doloribus possimus?
+                Alias sequi saepe corporis ratione aperiam fuga, est impedit
+                porro tempore quod at nemo exercitationem laborum magnam
+                dignissimos amet possimus facilis repellat ex! Perspiciatis ipsa
+                cum odit quidem. Voluptatum mollitia deserunt, quam illo error
+                provident modi qui earum accusamus laborum quas culpa, magnam
+                quisquam repellendus rem temporibus assumenda ratione adipisci
+                reprehenderit consequuntur at ex? Excepturi, qui veritatis!
+              </p>
+              <img width="300" src="images/bg_500.jpg" />
+              <ul>
+                <li>Lanches</li>
+                <li>Beirutes</li>
+                <li>Pizzas</li>
+              </ul>
+            </details>
+          </blockquote>
+          <p>
+            Escolha suas opções da massa
+            <abbr title="Tipo de cozimento mais consistente"> Al dente </abbr>
+          </p>
+          <p>
+            <bdo dir="rtl">Não perca nossa semana gourmet!</bdo>
+          </p>
+          <!-- type = a | A | i | I-->
+          <ol type="i">
+            <li>Pastas</li>
+            <li>Carnes</li>
+            <li>Caldos</li>
+            <li>Frutos</li>
+          </ol>
+        </article>
+        <hr />
+        <article>
+          <h2>Artigo 2</h2>
+          <p>
+            Lorem ipsum <del>dolor</del> ,
+            <em>it amet consecteturs</em> adipisicing elit.
+            <i>Totam unde iusto</i> minus optio modi officia<sub>2</sub> dolore
+            officiis temporibus<sup>ok</sup> cupiditate? <ins>Quia?</ins>
+          </p>
+          <p>
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. At numquam
+            praesentium, est dolores obcaecati eum voluptate laboriosam, eveniet
+            repellendus odio assumenda quod. Veritatis, quis vero ratione
+            quibusdam odio saepe nobis, quos fugiat earum tempora omnis quisquam
+            accusamus doloribus obcaecati adipisci mollitia porro architecto.
+            Voluptas sequi eos nisi voluptatem velit mollitia in aut, quaerat,
+            corrupti officiis repudiandae ullam? Doloribus suscipit, quod rerum
+            eum nobis, facilis unde cum ea id aut nulla, eveniet aliquid iste
+            illo odit laudantium. Quos facere obcaecati tempora eius minima
+            quibusdam sit ex optio, a modi architecto, nulla iusto voluptates
+            corporis reprehenderit ratione deleniti? Vel suscipit modi rerum
+            eius, optio quam consequatur sequi nostrum at magnam omnis obcaecati
+            ipsa odio laboriosam hic blanditiis officiis! Eaque fuga sunt
+            necessitatibus!
+          </p>
+          <!-- type = square| circle-->
+          <h3>Para acompanhar</h3>
+          <ul type="square">
+            <li>Saladas</li>
+            <li>Sobremesas</li>
+            <li>Vinhos</li>
+          </ul>
+          <table style="border: 1px solid #000" width="60%">
+            <caption>
+              <h4>Opções para o Jantar</h4>
+            </caption>
+            <tr>
+              <th rowspan="4">
+                <img src="images/info_460.jpg" alt="" width="100%" />
+              </th>
+              <th width="20%" style="text-align: left">Prato</th>
+              <th width="30%" style="text-align: left" width="20%">Preço</th>
+              <th width="30%"></th>
+            </tr>
+            <tr>
+              <td>Pasta</td>
+              <td>R$ 56</td>
+              <td>
+                <img
+                  src="images/authentic-italian-pasta.jpg"
+                  alt="Spaghetti"
+                  width="30%"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Salmão</td>
+              <td>R$ 84</td>
+              <td>
+                <img src="images/salmon-1312372.jpg" alt="Salmão" width="30%" />
+              </td>
+            </tr>
+            <tr>
+              <td>Pizza</td>
+              <td>R$ 45</td>
+              <td>
+                <img
+                  src="images/pizza-pepperoni-on-the-table.jpg"
+                  alt="Pizza"
+                  width="30%"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td colspan="3">
+                Terças e Quintas tdos os pratos com 10% de desconto
+              </td>
+            </tr>
+          </table>
+        </article>
+        <hr />
+        <article id="carnes">
+          <h2>Carnes</h2>
+          <p>
+            Lorem ipsum dolor, <em>it amet consecteturs</em> adipisicing elit.
+            <i>Totam unde iusto</i> minus optio modi officia dolore officiis
+            temporibus cupiditate? Quia?
+          </p>
+          <p>lorem120</p>
+          <!-- type = square| circle-->
+          <h3>Para acompanhar</h3>
+          <dl>
+            <dt>Carnes Nobres</dt>
+            <dd>Maminha na Manteiga</dd>
+            <dd>Picanha Maturada</dd>
+            <dd>Fraudinha</dd>
+          </dl>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque
+            illo voluptas, quidem esse deserunt enim tenetur in asperiores,
+            repellat nemo? Tempora optio sint corrupti. Aspernatur dolores
+            possimus quisquam, dicta eveniet impedit hic culpa eligendi deserunt
+            dignissimos maiores a? Blanditiis repellat, vero reiciendis ut iure
+            illo debitis molestiae eaque deserunt perferendis at, placeat
+            dolores voluptatum quidem quisquam necessitatibus? Cupiditate rem,
+            error reiciendis illo velit at deleniti repellendus. Nemo ducimus
+            officia fugit quisquam aperiam laudantium cum blanditiis nobis, quas
+            sequi optio maiores placeat mollitia minus nostrum eveniet
+            voluptates ipsa. Earum voluptatum provident quis ex sed minus
+            voluptates exercitationem sunt pariatur dolorem, excepturi nulla,
+            voluptatibus facere, nisi nam aspernatur asperiores sit corporis.
+            Maiores pariatur cupiditate ducimus reiciendis harum voluptatem odit
+            excepturi voluptates!
+          </p>
+          <img src="images/gif/cooking.gif" alt="cooking" />
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Et neque
+            illo voluptas, quidem esse deserunt enim tenetur in asperiores,
+            repellat nemo? Tempora optio sint corrupti. Aspernatur dolores
+            possimus quisquam, dicta eveniet impedit hic culpa eligendi deserunt
+            dignissimos maiores a? Blanditiis repellat, vero reiciendis ut iure
+            illo debitis molestiae eaque deserunt perferendis at, placeat
+            dolores voluptatum quidem quisquam necessitatibus? Cupiditate rem,
+            error reiciendis illo velit at deleniti repellendus. Nemo ducimus
+            officia fugit quisquam aperiam laudantium cum blanditiis nobis, quas
+            sequi optio maiores placeat mollitia minus nostrum eveniet
+            voluptates ipsa. Earum voluptatum provident quis ex sed minus
+            voluptates exercitationem sunt pariatur dolorem, excepturi nulla,
+            voluptatibus facere, nisi nam aspernatur asperiores sit corporis.
+            Maiores pariatur cupiditate ducimus reiciendis harum voluptatem odit
+            excepturi voluptates!
+          </p>
+        </article>
+      </section>
+    </main>
+    <hr>
+    <footer>
+      <p>&copy;2045 - Todos os direitos</p>
+      <pre>
+            "Deus não joga dados"
+              <small>Albert Einstein__</small>
+          </pre>
+    </footer>
+  </body>
+</html>

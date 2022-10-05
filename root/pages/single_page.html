@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nosso Restaurante</title>
+</head>
+<style>
+    body{
+      width: 80%;
+      margin: auto;
+      font-size: 1.3em;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      line-height: 1.3em;
+      border: 1px dashed #ccc;
+      padding: 10px;
+    }
+    figure{
+      padding: 20px;
+    }
+    header{
+      font-size: 2em;
+      font-weight: 700;
+    }
+    header nav ul li{
+        font-size: 16px;
+    }
+    header img{
+      width: 80px;
+    }
+    audio{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    select{
+        font-size: 0.88em;
+    }
+  </style>
+<body>
+    <header>
+        <img src="../images/svg/cenoura.svg" alt="Cenoura" width="30" />
+        <span>Nosso Restaurante</span>
+        <br> <br>
+        <img src="../images/salmon-1312372.jpg" alt="Salmão" style="width: 100%">
+        <nav>
+            <ul>
+                <li>
+                    <a href="#sobre">Sonbre Nós</a> |
+                    <a href="#pratos">Pratos |
+                    <a href="#reservas">Faça a sua reserva</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article id="sobre"></article>
+                <h2>Sobre Nosso Compromisso</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo esse tempora aliquam delectus placeat sint quas laborum repellat? Nemo ad nam vitae assumenda quidem voluptas mollitia doloremque optio sunt perferendis repellendus id accusantium fugiat nobis enim, inventore numquam minima esse necessitatibus rem ipsam officia harum? Quibusdam eos vero optio tenetur sed amet nam numquam id veniam expedita. Sapiente illo facilis dolorum ratione. Consequatur omnis, ut laborum assumenda cupiditate debitis doloremque eaque, temporibus deleniti tenetur doloribus itaque cumque ex ipsam culpa.
+                </p>
+                <img 
+                    width="49%" 
+                    title="conheça nosso menu" 
+                    alt="conheça nosso menu" 
+                    src="../images/here-take-a-look-at-our-menu.jpg" 
+                />
+                <img 
+                    width="49%" 
+                    title="conheça nosso menu" 
+                    alt="conheça nosso menu" 
+                    src="../images/chef-939437_1920.jpg" 
+                />
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi vitae atque odit veritatis minima nisi, expedita neque dolorem iure molestias repellat quaerat ex ab eveniet earum non quasi culpa. Id.
+                </p>
+            <article id="pratos">
+                <h2>Aprecie nossos pratos especiais</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Expedita, unde autem. Ut quod laborum error molestias, itaque dolores fugiat repellat rerum totam quas voluptate nam nihil illum cumque quo accusamus.</p>
+                <table>
+                    <tr>
+                        <td width="25%">
+                            <img width="100%" src="../images/baked-salmon-garnished-with-asparagus-and-tomatoes-with-herbs.jpg" alt="Salmão">
+                        </td>
+                        <td>
+                            <h3>Salmão grelhado</h3>
+                            <p>R$ 80,00</p>
+                            <p>No almoço</p>
+                        </td>
+                        <td width="25%">
+                            <img width="100%" src="../images/authentic-italian-pasta.jpg" alt="Spaghetti">
+                        </td>
+                        <td>
+                            <h3>Spaghetti ao molho bolonhesa</h3>
+                            <p>R$ 70,00</p>
+                            <p>No almoço</p>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <h3>Espeto de vegetais</h3>
+                            <p>R$ 65,00</p>
+                            <p>Aos Domingos</p>
+                        </td>
+                        <td width="25%">
+                            <img width="100%" src="../images/frutas-e-vegetais.jpg" alt="Frutas e vegetais">
+                        </td>
+                        <td>
+                            <h3>Pizza Pepperoni</h3>
+                            <p>R$ 54,00</p>
+                            <p>A noite com os amigos</p>
+                        </td>
+                        <td width="25%">
+                            <img width="100%" src="../images/pizza-pepperoni-on-the-table.jpg" alt="Pizza">
+                        </td>
+                    </tr>
+                </table>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est voluptatum temporibus omnis officiis vel quae aliquam doloribus, repellat unde quos optio iure pariatur ab veritatis adipisci, dolore earum deleniti voluptate facilis necessitatibus ipsa natus commodi. Non voluptates, magnam voluptate incidunt, eligendi expedita quos id tenetur quia fugiat nam nesciunt maiores.</p>
+            </article>
+            <article id="reservas">
+                <h2>Reserve nosso espaço para o seu aniversário</h2>
+                <form action="" method="post" enctype="multipart/form-data">
+                    <fieldset>
+                        <legend>Preencha todos os campo</legend>
+                        <ul>
+                            <li>
+                                <label for="nome">Nome</label>
+                                <input 
+                                    type="text" 
+                                    id="nome" 
+                                    name="nome" 
+                                    maxlength="30"
+                                    size="50"
+                                    autofocus
+                                    required
+                                >
+                            </li>
+                             <li>
+                                <label for="email">Email</label>
+                                <input 
+                                    type="email" 
+                                    id="email" 
+                                    name="email"
+                                    size="50"
+                                    placeholder="Coloque melhor email" 
+                                    required
+                                >
+                            </li>
+                            <li>
+                                <label for="convidados">Convidados</label>
+                                <input 
+                                    type="number" 
+                                    id="convidados" 
+                                    name="convidados" 
+                                    required 
+                                    min="1" 
+                                    max="10" 
+                                    value="10" 
+                                    readonly
+                                >
+                                <hr>
+                            </li>
+                            <li>
+                                <label for="entrada">Escolha sua entrada</label>
+                                <input list="entrada_opt" name="entrada" id="entrada">
+                                <datalist id="entrada_opt">
+                                    <option value="Caldo de Mandioquinha"></option>
+                                    <option value="Caprese no Palito"></option>
+                                    <option value="Patê de Azeitonas"></option>
+                                </datalist>
+                            </li>
+                            <li>
+                                <label for="aniversariante">Coloque a foto do anoversariante</label> <br>
+                                <input 
+                                    type="file" 
+                                    id="aniversariante" 
+                                    name="aniversariante" 
+                                    required accept="image/png"
+                                >
+                            </li>
+                            <li>
+                                <label for="tipo_comida"></label>
+                                <select name="cozinha" id="cozinha">
+                                    <option value="...">...</option>
+                                    <!-- <option value="brasileira">Brasileira</option> -->
+                                    <optgroup label="Brasileira">
+                                        <option value="feijoada">Feijoada</option>
+                                        <option value="virado">Virada a Paulista</option>
+                                    </optgroup>
+                                    <!-- <option value="italiana">Italiana</option> -->
+                                    <optgroup label="Itaiana">
+                                        <option value="lasanha">Lazanha</option>
+                                        <option value="Risotto">Risotto</option>
+                                    </optgroup>
+                                    <option value="fransesa">Fransesa</option>
+                                </select>
+                            </li>
+                            <hr>
+                            <li>
+                                <label for="data_niver">Data do aniversário</label>
+                                <input type="date" name="data_niver" id="data_niver">
+                            </li>
+                            <li>
+                                <label for="cor_festa">Cor do tema</label>
+                                <input type="color" name="cor_festa" id="cor_festa" value="#ff00ff">
+                            </li>
+                            <hr>
+                            <li>
+                                <label for="servicos">Serviços adicionais</label> <br />
+                                    <input style="accent-color: red" type="checkbox" name="servicos" id="musico" checked>Músico
+                                    <input type="checkbox" name="servicos" id="danca_do_ventre">Dança do Ventre
+                                    <input type="checkbox" name="servicos" id="magico">Mágico
+                            </li>
+                            <hr>
+                            <li>
+                                <label for="bolo">Bolo do aniversariante</label> <br>
+                                <input type="radio" name="bolo" id="bolo_proprio">Bolo próprio
+                                <input type="radio" name="bolo" id="bolo_nosso" checked>Bolo Nosso Restaurante
+                            </li>
+                            <hr>
+                            <li>
+                                <label for="obs">Observações</label> <br>
+                                <textarea 
+                                    name="obs" 
+                                    id="obs" 
+                                    cols="30" 
+                                    rows="10">
+                                </textarea>
+                            </li>
+                            <li>
+                                <input 
+                                    type="image" 
+                                    src="../images/png/btn_bolo.png" 
+                                    alt="Enviar a mensagem" 
+                                    width="200">
+                                <!-- <input type="submit" value="Confirmar o envio"> -->
+                                <!-- <button>Confirmar</button> -->
+                            </li>
+                        </ul>
+                    </fieldset>
+                </form>
+            </article>
+        </section>
+    </main>
+    <footer>
+        <table width="100%">
+            <tr>
+                <td width="50%">
+                    <p>nossorestaurante1986@email.com</p>
+                    <p>+55 99xx-33xx</p>
+                    <img src="../images/facebook.png" alt="" width="45">
+                    <img src="../images/instagram.png" alt="" width="45">
+                    <img src="../images/linkedin.png" alt="" width="45">
+                    <img src="../images/whatsapp.png" alt="" width="45">
+                </td>
+                <td width="50%">
+                    <form action="" method="post">
+                        <fieldset>
+                            <legend>O que podemos te ajudar hoje?</legend>
+                            <ul>
+                                <li>
+                                    <!-- <label for="nome_mensagem">Nome:</label> -->
+                                    <input 
+                                        type="text" 
+                                        name="nome_mensagem"
+                                        id="nome_mensagem"
+                                        placeholder="Seu nome aqui"
+                                        required
+                                    >
+                                    <!-- <label for="email_mensagem">Email:</label> -->
+                                    <input 
+                                        type="text" 
+                                        name="email_mensagem"
+                                        id="email_mensagem"
+                                        placeholder="Seu email aqui"
+                                        required
+                                    >
+                                    <!-- <label for="telefone_mensagem">Telefone:</label> -->
+                                    <input 
+                                        type="text" 
+                                        name="telefone_mensagem"
+                                        id="telefone_mensagem"
+                                        placeholder="Seu telefone aqui"
+                                        required
+                                    >
+                                    <li>
+                                        <button>Enviar Mensagem</button>
+                                    </li>
+                                </li>
+                            </ul>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2"><p>&copy;2045 - Todos os direitos reservados</p></td>
+            </tr>
+        </table> 
+    </footer>
+</body>
+</html>
